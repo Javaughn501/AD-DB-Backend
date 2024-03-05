@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: SA
+    url: jdbc:sqlserver://;serverName=localhost;databaseName=ad_group;encrypt=true;trustServerCertificate=true;
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    password: YourStrong@Passw0rd
+  jpa:
+    hibernate:
+      dialect: org.hibernate.dialect.SQLServerDialect
+      ddl-auto: validate
+    show-sql: 'true'
+
